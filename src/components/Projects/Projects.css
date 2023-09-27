@@ -1,0 +1,266 @@
+.Proyects-container {
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.5rem 21rem 6.5rem 21rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.Proyects-title {
+    margin: 0 0 3rem 0;
+}
+
+.Proyects-title h2 {
+    font-size: 1.7rem;
+    padding: 0 0 0.3rem 0;
+    margin: 0;
+    border-bottom: 3px solid var(--purple);
+    color: var(--purple);
+}
+
+.Proyects-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    /* grid-template-columns: minmax(0, 1fr); */
+    /* grid-template-rows: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); */
+}
+
+.proyect-container {
+    display: flex;
+    padding: 2rem;
+    height: fit-content;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyect-1 {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.proyect-skills {
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+
+
+.proyect-text {
+    text-align: center;
+}
+
+.proyect-text p {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.proyect-title {
+    font-size: 1.7rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.proyect-description {
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom>h3 {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-proyect-1 {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-proyect-1:hover {
+    transform: scale(1.01);
+}
+
+.img-proyect-1 {
+    background: url("../../assets/img/noirsports.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.proyect-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.proyect-links a {
+    margin: 2rem 1rem 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.bx-globe {
+    color: black;
+    transition: color 0.1s ease;
+}
+
+.bx-globe:hover {
+    color: blue;
+}
+
+.bx-code-alt {
+    color: black;
+    transition: color 0.1s ease;
+}
+
+.bx-code-alt:hover {
+    color: blue;
+}
+
+@media only screen and (max-width: 1453px) {
+    .Proyects-container {
+        padding: 6.5rem 11rem;
+    }
+}
+
+@media only screen and (max-width: 1139px) {
+    .Proyects-container {
+        padding: 6.5rem 4.5rem;
+    }
+
+    .proyect-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .proyect-2,
+    .proyect-4 {
+        flex-direction: column-reverse;
+    }
+
+    .top {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .proyect-description {
+        margin-bottom: 2rem;
+    }
+
+    .bottom {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .proyect-skills {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .Proyects-container {
+        padding: 6.5rem 1.5rem;
+    }
+
+    .top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-a img, .skill-b img, .skill-c, .skill-d, .skill-e, .skill-f, .skill-g, .skill-h {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .proyect-title {
+        font-size: 1.3rem;
+    }
+
+    .proyect-description {
+        font-size: 0.8rem;
+    }
+
+    .bottom h3 {
+        font-size: 0.8rem;
+    }
+
+    .left {
+        justify-content: flex-start;
+    }
+
+    .down {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .img-proyect-1,
+    .img-proyect-2,
+    .img-proyect-3,
+    .img-proyect-4 {
+        width: 20rem;
+        height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+.skill-a img, .skill-b img, .skill-c, .skill-d, .skill-e, .skill-f, .skill-g, .skill-h {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+}
+
+@media only screen and (max-width: 523px) {
+    .Proyects-title h2 {
+        font-size: 1.3rem;
+    }
+
+    .proyect-skills {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 438px) {
+
+    .img-proyect-1,
+    .img-proyect-2,
+    .img-proyect-3,
+    .img-proyect-4 {
+        width: 17rem;
+        height: 9rem;
+    }
+}
