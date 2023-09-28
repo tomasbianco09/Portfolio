@@ -1,0 +1,26 @@
+.footer-container {
+    justify-content: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.footer-container footer{
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #777;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+}
+
+.foOter {
+    display: flex;
+    align-items: center;
+}
+
+.footer span {
+    color: #777;
+}

@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 
 function About() {
     return (
-        <div id="about" className="About-container">
-            <div className="About-title">
+        <div id="about" className="about-container">
+            <div className="about-title">
                 <h2>About Me</h2>
             </div>
-            <div className="About-container-2">
-                <div className="About-text">
+            <div className="about-container-2">
+                <div className="about-text">
                     <h3>An a Web Developer &#128187;</h3>
                     <p>
                     My approach to programming encompasses a wide spectrum of essential technologies, including <span>JavaScript</span>, <span>React.js</span>, <span>GitHub</span>, <span>HTML</span>, and <span>CSS</span>. <br />
@@ -22,9 +22,9 @@ function About() {
                     
                 </div>
             </div>
-            <div className="About-things">
+            <div className="about-things">
                 <h3>Education</h3>
-                <ul className="About-education">
+                <ul className="about-education">
                     <li>
                         <div>
                             <h4>Web Developer</h4>

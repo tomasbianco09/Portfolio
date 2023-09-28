@@ -1,4 +1,4 @@
-.introSection {
+.home-container {
   background-color: rgb(247, 247, 247);
   box-sizing: border-box;
   flex-direction: column;
@@ -10,46 +10,46 @@
   justify-content: space-between;
 }
 
-.homeIntro {
+.home-container-2 {
   display: flex;
   justify-content: space-between;
 
 }
 
-.introTitle {
+.home-title {
   width: 30rem;
 
 }
 
-.introTitle h1 {
+.home-title h1 {
   font-size: 3.7rem;
   letter-spacing: 2px;
 }
 
-.intro-p {
+.home-p {
   font-size: 1.2rem;
   font-weight: 500;
   width: 25rem;
   margin: 2rem 0px 2.7rem;
 }
 
-.intro-p span {
+.home-p span {
   color: #5425b3;
   font-weight: 700;
 }
 
-.intro-img {
+.home-img {
   justify-content: center;
 }
 
-.homeImg {
+.home-img img {
   height: 20rem;
   width: 20rem;
   border: 3px solid black;
   border-radius: 7rem;
 }
 
-.intro-img i{
+.home-img i{
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -58,23 +58,23 @@
   font-family: "Poppins", sans-serif;
 }
 
-.intro-img a {
+.home-img a {
   text-decoration: none;
   color: black;
 }
 
-.homeFiles {
+.home-files {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
 }
 
-.homeFiles li{
+.home-files li{
   list-style: none;
   margin: 0 1rem;
 }
 
-.introSkills {
+.home-skills {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@
   margin: 0;
 }
 
-.introSkills h3 {
+.home-skills h3 {
   font-size: 1.3rem;
   margin: 0 0 2rem;
 }
@@ -108,51 +108,51 @@
   width: 3rem;
 }
 
-.intro-ul {
+.home-ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.linkImg a{
+.home-link-img a{
   margin-right: 1rem;
 }
 
-.linkImg i{
+.home-link-img i{
   color: black;
 }
 
 
 @media only screen and (max-width: 1400px) {
-  .introSection {
+  .home-container {
     padding: 10.5rem 6rem 6rem 6rem;
   }
 }
 
 @media only screen and (max-width: 1070px) {
-  .introSection {
+  .home-container {
     padding: 6rem 1.5rem 1.5rem 1.5rem;
     height: 100%;
   }
 
-  .introTitle {
+  .home-title {
     text-align: center;
 
   }
 
-  .homeIntro {
+  .home-container-2 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
 
-  .intro-p {
+  .home-p {
     margin: 1.5rem 0;
     width: 100%;
   }
 
-  .intro-ul {
+  .home-ul {
     justify-content: center;
   }
 
@@ -160,11 +160,11 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  .introTitle {
+  .home-title {
     width: 30rem;
   }
 
-  .introSection {
+  .home-container {
     padding: 10.5rem 6rem 6rem 6rem;
   }
 
@@ -172,7 +172,7 @@
     font-size: 3rem;
   }
 
-  .intro-p {
+  .home-p {
     font-size: 1rem;
     width: 20rem;
   }
@@ -180,12 +180,12 @@
 
 
 @media only screen and (max-width: 1139px) {
-  .introSection {
+  .home-container {
     padding: 6rem 1.5rem 1.5rem 1.5rem;
     height: 100%;
   }
 
-  .homeIntro {
+  .home-container-2 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -195,26 +195,26 @@
     margin-bottom: 1.5rem;
   }
 
-  .introTitle h1,
-  .intro-p {
+  .home-title h1,
+  .home-p {
     text-align: center;
   }
 
-  .intro-p {
+  .home-p {
     margin: 1.5rem 0;
     width: 100%;
   }
 
-  .intro-ul {
+  .home-ul {
     justify-content: center;
     margin-bottom: 1.5rem;
   }
 
-  .intro-ul li {
+  .home-ul li {
     margin: 0;
   }
 
-  .introSkills h3 {
+  .home-skills h3 {
     margin-bottom: 1.5rem;
   }
 }
@@ -226,7 +226,7 @@
     border-radius: 5rem;
   }
 
-  .introTitle {
+  .home-title {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -234,11 +234,11 @@
     justify-content: center;
   }
 
-  .introTitle h1 {
+  .home-title h1 {
     font-size: 2.3rem;
   }
 
-  .intro-p {
+  .home-p {
     width: 55%;
   }
 
@@ -249,7 +249,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .introSkills h3 {
+  .home-skills h3 {
     font-size: 1rem;
   }
 

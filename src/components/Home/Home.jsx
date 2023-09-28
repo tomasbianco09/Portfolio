@@ -10,34 +10,34 @@ import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
-        <section id="home" className='introSection'>
-            <div className='homeIntro'>
-                <div className='introTitle'>
+        <section id="home" className='home-container'>
+            <div className='home-container-2'>
+                <div className='home-title'>
                     <h1>Full-Stack Developer.</h1>
-                    <p className="intro-p">Hi, I'm <span>Tomas Bianco</span>.
+                    <p className="home-p">Hi, I'm <span>Tomas Bianco</span>.
                         <br />
                         A passionate Full Stack Web Developer from Argentina.</p>
-                    <ul class="intro-ul">
-                        <li className='linkImg'>
+                    <ul class="home-ul">
+                        <li className='home-link-img'>
                             <a href="https://github.com/tomasbianco09" target="_blank">
                                 <i className="bx bx-md bxl-github"></i>
                             </a>
                         </li>
-                        <li className='linkImg'>
+                        <li className='home-link-img'>
                             <a href="https://www.linkedin.com/in/facundo-bianco-2625ab248/" target="_blank">
                                 <i className="bx bx-md bxl-linkedin-square"></i>
                             </a>
                         </li>
-                        <li className='linkImg'>
+                        <li className='home-link-img'>
                             <a href="https://www.instagram.com/tomibianco/?hl=es-la" target="_blank">
                                 <i class='bx bx-md bxl-instagram' ></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div className='intro-img'>
-                    <img className='homeImg' src={g2} alt="" />
-                    <div className='homeFiles'>
+                <div className='home-img'>
+                    <img src={g2} alt="" />
+                    <div className='home-files'>
                         <li>
                             <Link>
                                 <i class='bx bx-md bxs-file'></i>
@@ -55,7 +55,8 @@ const Home = () => {
                     
                 </div>
             </div>
-            <div className='introSkills'>
+
+            <div className='home-skills'>
                 <div>
                     <h3>My Skills</h3>
                 </div>

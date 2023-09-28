@@ -1,7 +1,7 @@
 
-.About-container {
+.about-container {
   box-sizing: border-box;
-  padding: 3rem 15rem 6.5rem ;
+  padding: 6.5rem 15rem 6.5rem ;
   background-color: rgb(237, 237, 237);
   display: flex;
   flex-direction: column;
@@ -11,25 +11,25 @@
 
 }
 
-.About-title {
+.about-title {
   color: black;
   margin-bottom: 3rem;
 }
 
-.About-title h2 {
+.about-title h2 {
   font-size: 1.7rem;
   padding: 0 0 0.3rem 0;
   margin: 0;
   border-bottom: 3px solid var(--purple);
 }
 
-.About-container-2 {
+.about-container-2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.About-text {
+.about-text {
   box-sizing: border-box;
   width: 65%;
   background-color: white;
@@ -44,37 +44,37 @@
   position: relative;
 }
 
-.About-text p span {
+.about-text p span {
   font-weight: bold;
 }
 
-.About-text h3 {
+.about-text h3 {
   margin: auto;
   font-size: 1.9rem;
   margin-bottom: 1rem;
 }
 
-.About-text p {
+.about-text p {
   margin: 0;
   font-weight: 500;
 }
 
-.About-things h3{
+.about-things h3{
   margin: 3rem 0 3rem 0;
   font-size: 1.7rem;
   text-align: center;
 }
 
-.About-education {
+.about-education {
   text-align: start;
   display: flex;
 }
 
-.About-education p{
+.about-education p{
   font-size: 0.9rem;  
 }
 
-.About-education li {
+.about-education li {
   list-style: none;
   background-color: #fff;
   border-radius: 2rem;
@@ -87,7 +87,7 @@
   display: flex;
 }
 
-.About-education li a{
+.about-education li a{
   display: flex;
   align-items: center;
   margin-left: 3.5rem;
@@ -96,27 +96,20 @@
 }
 
 @media only screen and (max-width: 1400px) {
-  .About-container {
-    padding: 6.5rem 1.5rem 6.5rem 1.5rem;
+  .about-container {
+    padding: 3rem 1.5rem 6.5rem 1.5rem;
   }
-  .About-image {
-    width: 8rem;
-    height: 8rem;
-    margin: 0 0 1.5rem 0;
-    top: -3rem;
-    right: -3rem;
-  }
-  .About-text {
+  .about-text {
     width: 37rem;
   }
-  .About-text h3 {
+  .about-text h3 {
     font-size: 1.5rem;
   }
-  .About-text p {
+  .about-text p {
     font-size: 0.8rem;
   }
 
-  .About-education {
+  .about-education {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 6rem;
@@ -124,58 +117,46 @@
 }
 
 @media only screen and (max-width: 1070px) {
-  .About-container-2 {
+  .about-container-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
   }
-  .About-text h3,
-  .About-text p {
+  .about-text h3,
+  .about-text p {
     text-align: center;
   }
 }
 
 @media only screen and (max-width: 720px) {
-  .About-container {
+  .about-container {
     padding: 6.5rem 4.5rem;
   }
-  .About-text {
+  .about-text {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .About-container {
+  .about-container {
     padding: 6.5rem 1.5rem;
   }
-  .About-title h2 {
+  .about-title h2 {
     font-size: 1.3rem;
   }
-  .About-image {
-    width: 3rem;
-    height: 3rem;
-    top: 1rem;
-    right: 2rem;
-  }
-  .About-text h3 {
+  .about-text h3 {
     font-size: 1rem;
   }
-  .About-text p {
+  .about-text p {
     font-size: 0.8rem;
   }
 
-  .About-education li {
+  .about-education li {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 460px) {
-  .About-image {
-    top: 2rem;
-    right: 2rem;
-  }
-}
 
 
 

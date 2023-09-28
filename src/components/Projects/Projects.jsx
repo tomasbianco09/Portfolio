@@ -6,11 +6,11 @@ import store from '../../assets/img/noirsports.png'
 
 function Proyects() {
   return (
-    <section id="projects" className="Proyects-container">
-      <div className="Proyects-title">
+    <section id="projects" className="proyects-container">
+      <div className="proyects-title">
         <h2>My Projects</h2>
       </div>
-      <div className="Proyects-card-container">
+      <div className="proyects-card-container">
         <div className="proyect-1 proyect-container">
           <div className="top">
             <div className="proyect-text">
