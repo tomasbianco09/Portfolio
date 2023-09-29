@@ -170,7 +170,6 @@
 
     .top {
         width: 100%;
-        padding-bottom: 2rem;
     }
 
     .proyect-description {
@@ -202,10 +201,10 @@
         flex-direction: column;
     }
 
-    .skill-a img, .skill-b img, .skill-c, .skill-d, .skill-e, .skill-f, .skill-g, .skill-h {
+    /* .skill-a img, .skill-b img, .skill-c, .skill-d, .skill-e, .skill-f, .skill-g, .skill-h {
         height: 1.5rem;
         width: 1.5rem;
-    }
+    } */
 
     .proyect-title {
         font-size: 1.3rem;
@@ -215,9 +214,6 @@
         font-size: 0.8rem;
     }
 
-    .bottom h3 {
-        font-size: 0.8rem;
-    }
 
     .left {
         justify-content: flex-start;
@@ -239,9 +235,9 @@
 }
 
 @media only screen and (max-width: 500px) {
-.skill-a img, .skill-b img, .skill-c, .skill-d, .skill-e, .skill-f, .skill-g, .skill-h {
-    height: 1.5rem;
-    width: 1.5rem;
+.skill-a img, .skill-b img, .skill-c img, .skill-d img, .skill-e img {
+    height: 2rem;
+    width: 2rem;
 }
 }
 
