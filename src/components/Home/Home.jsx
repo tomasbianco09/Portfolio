@@ -1,10 +1,12 @@
 import React from 'react'
 import './Home.css'
-import g2 from '../../assets/img/pablo.jpg'
+import g2 from '../../assets/img/tomi.jpeg'
 import javascript from '../../assets/img/javascript.png'
 import react from '../../assets/img/react.png'
-import github from '../../assets/img/github.png'
-import linkedin from '../../assets/img/linkedin.png'
+import css from '../../assets/img/css-8e01670c.svg'
+import html from '../../assets/img/html-52732337.svg'
+import git from '../../assets/img/git.svg'
+
 import { Link } from 'react-scroll'
 
 
@@ -13,10 +15,10 @@ const Home = () => {
         <section id="home" className='home-container'>
             <div className='home-container-2'>
                 <div className='home-title'>
-                    <h1>Full-Stack Developer.</h1>
+                    <h1>Frondtend Developer.</h1>
                     <p className="home-p">Hi, I'm <span>Tomas Bianco</span>.
                         <br />
-                        A passionate Full Stack Web Developer from Argentina.</p>
+                        A passionate Frondtend Web Developer from Argentina.</p>
                     <ul class="home-ul">
                         <li className='home-link-img'>
                             <a href="https://github.com/tomasbianco09" target="_blank">
@@ -39,9 +41,9 @@ const Home = () => {
                     <img src={g2} alt="" />
                     <div className='home-files'>
                         <li>
-                            <Link>
+                            <a href="/bianco-cv.pdf" target="_blank">
                                 <i class='bx bx-md bxs-file'></i>
-                            </Link>
+                            </a>
                         </li>
                         <li>
                             <Link to="projects"
@@ -66,6 +68,15 @@ const Home = () => {
                     </div>
                     <div className='skill-b'>
                         <img src={react} alt="" />
+                    </div>
+                    <div className='skill-c'>
+                        <img src={css} alt="" />
+                    </div>
+                    <div className='skill-d'>
+                        <img src={html} alt="" />
+                    </div>
+                    <div className='skill-e'>
+                        <img src={git} alt="" />
                     </div>
                 </div>
             </div>

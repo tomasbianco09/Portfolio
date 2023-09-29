@@ -2,7 +2,8 @@ import "./Projects.css";
 import { Link } from 'react-router-dom'
 import javascript from '../../assets/img/javascript.png'
 import react from '../../assets/img/react.png'
-import store from '../../assets/img/noirsports.png'
+import css from '../../assets/img/css-8e01670c.svg'
+import html from '../../assets/img/html-52732337.svg'
 
 function Proyects() {
   return (
@@ -16,7 +17,7 @@ function Proyects() {
             <div className="proyect-text">
               <h3 className="proyect-title">Noir Store</h3>
               <p className="proyect-description">
-              A personalized ecommerce for an eSports store. Beautiful, functional
+                A personalized ecommerce for an eSports store. Beautiful, functional
                 and minimalistic.
               </p>
             </div>
@@ -24,13 +25,18 @@ function Proyects() {
               <h3>Tech used</h3>
               <div className="proyect-skills">
                 <div className='skill-a'>
-                      <img src={javascript} alt="" />
-                  </div>
-                  <div className='skill-b'>
-                      <img src={react} alt="" />
-                  </div>
-
+                  <img src={javascript} alt="" />
                 </div>
+                <div className='skill-b'>
+                  <img src={react} alt="" />
+                </div>
+                <div className='skill-c'>
+                  <img src={css} alt="" />
+                </div>
+                <div className='skill-d'>
+                  <img src={html} alt="" />
+                </div>
+              </div>
             </div>
           </div>
 

@@ -2,15 +2,12 @@
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    background-color: rgb(237, 237, 237);
-    margin-bottom: 5rem;
-    padding: 6.5rem 11rem 6.5rem 11rem;
+    background-color: rgb(237, 237, 237);    padding: 6.5rem 11rem 6.5rem 11rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-family: "Poppins", sans-serif;
-
   }
   
   .contact-title {
