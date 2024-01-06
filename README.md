@@ -1,8 +1,25 @@
-# React + Vite
+# Portfolio
+## Tomas Bianco
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Portfolio personal de Tomas Bianco
 
-Currently, two official plugins are available:
+### Uso correcto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - Para instalar las dependecias e iniciar el proyecto correctamente debe escribir en la consola: `npm install`
+ - Y luego para iniciar en el proyecto ejecutar: `npm run dev`
+ - Ir a http://localhost:5173/
+
+### Biblitecas usadas e instalacion:
+* npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+* npm i @chakra-ui/icons
+* npm i react-dom
+* npm i react-router-dom
+* npm i react-scroll
+* npm i framer-motion
+
+
+Para una mejor experiencia podes visitar la pagina en este link  👇
+
+[Portfolio](https://tomas-bianco-portfolio.netlify.app/)
+
+[Linkedin](https://www.linkedin.com/in/facundo-bianco-2625ab248/)
