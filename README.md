@@ -1,7 +1,7 @@
 # Portfolio
 ## Tomas Bianco
 
-#### Portfolio personal de Tomas Bianco
+#### Portfolio personal de Tomas Bianco.
 
 ### Uso correcto:
 
