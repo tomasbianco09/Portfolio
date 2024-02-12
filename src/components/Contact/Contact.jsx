@@ -16,7 +16,7 @@ function Contact() {
         </div>
         <div className="contact-link">
             <i className="bx bx-md bxs-envelope"></i>
-          <p>work.tomibianco@gmail.com</p>
+          <p>work.tomasbianco@gmail.com</p>
         </div>
         <div className="contact-link">
           <a
