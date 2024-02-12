@@ -6,7 +6,6 @@ import react from '../../assets/img/react.png'
 import css from '../../assets/img/css-8e01670c.svg'
 import html from '../../assets/img/html-52732337.svg'
 import git from '../../assets/img/git.svg'
-
 import { Link } from 'react-scroll'
 
 
@@ -16,7 +15,7 @@ const Home = () => {
             <div className='home-container-2'>
                 <div className='home-title'>
                     <h1>Frondtend Developer.</h1>
-                    <p className="home-p">Hi, I'm <span>Tomas Bianco</span>.
+                    <p className="home-p">Hi, I'm <span>Facundo Tomas Bianco</span>.
                         <br />
                         A passionate Frondtend Web Developer from Argentina.</p>
                     <ul class="home-ul">
