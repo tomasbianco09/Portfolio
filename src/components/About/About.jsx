@@ -15,8 +15,8 @@ function About() {
                     <p>
                     I am currently studying JavaScript to reinforce my knowledge and continue learning.<br />
                     My approach to programming encompasses a wide spectrum of essential technologies, including <span>JavaScript</span>, <span>React.js</span>, <span>GitHub</span>, <span>HTML</span>, and <span>CSS</span>. <br />
-                    My work philosophy is based on <span>perseverance</span> and <span>commitment</span>, which means I tirelessly dedicate myself to overcoming challenges and providing creative solutions to every project I undertake. <br />
-                    My goal is to continue growing as a Full Stack developer and contribute to the success of exciting projects. <br />
+                    My work philosophy is based on <span>perseverance</span> and <span>commitment</span>, which means I tirelessly dedicate myself to overcoming challenges. <br />
+                    My goal is to continue growing as a Full Stack developer. <br />
                     I'm excited about the opportunities that may arise and I'm ready to bring my passion and experience to any team I join. <br />
                     <span>Thank you for visiting my portfolio!</span>
                     </p>
