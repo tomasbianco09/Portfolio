@@ -13,6 +13,7 @@ function About() {
                 <div className="about-text">
                     <h3>An a Web Developer &#128187;</h3>
                     <p>
+                    I am currently studying JavaScript to reinforce my knowledge and continue learning.<br />
                     My approach to programming encompasses a wide spectrum of essential technologies, including <span>JavaScript</span>, <span>React.js</span>, <span>GitHub</span>, <span>HTML</span>, and <span>CSS</span>. <br />
                     My work philosophy is based on <span>perseverance</span> and <span>commitment</span>, which means I tirelessly dedicate myself to overcoming challenges and providing creative solutions to every project I undertake. <br />
                     My goal is to continue growing as a Full Stack developer and contribute to the success of exciting projects. <br />
@@ -24,6 +25,7 @@ function About() {
             </div>
             <div className="about-things">
                 <h3>Education</h3>
+                
                 <ul className="about-education">
                     <li>
                         <div>

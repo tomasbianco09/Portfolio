@@ -17,7 +17,7 @@ const Home = () => {
                     <h1>Frondtend Developer.</h1>
                     <p className="home-p">Hi, I'm <span>Facundo Tomas Bianco</span>.
                         <br />
-                        A passionate Frondtend Web Developer from Argentina.</p>
+                        A passionate student of Frontend Web Development from Argentina.</p>
                     <ul class="home-ul">
                         <li className='home-link-img'>
                             <a href="https://github.com/tomasbianco09" target="_blank">
